@@ -1,0 +1,50 @@
+html{
+    font-size: 20px;
+    background-color: rgb(228, 199, 199);
+    background-size: 100% 100%;
+    font-family: 'Consolas', monospace;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+.btn{
+    margin: 70px;
+    margin-top: 100px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(246, 229, 250);
+    border-color: rgb(144, 153, 231);
+    outline: none
+}
+
+.btn:hover{
+    transform: scale(1.2);
+    border-color: rgb(231, 110, 211);
+}
+
+img{
+    width: 125px;
+    height: 125px;  
+}
+
+.text-line{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+}
+
+.text{
+    margin: 50px;
+}
+#output{
+    font-size: 40px;
+    text-align: center;
+}
